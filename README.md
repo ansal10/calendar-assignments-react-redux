@@ -1,6 +1,6 @@
 ## Instructions
 
-The goal of this exercise is to create a demo calendar application using React & Redux. We strongly recommend [create-react-app](https://github.com/facebookincubator/create-react-app) to make the bootstrapping of your application really easy.
+The goal of this exercise is to create a demo calendar application using React & Redux & Routes. We strongly recommend [create-react-app](https://github.com/facebookincubator/create-react-app) to make the bootstrapping of your application really easy.
 
 ### The Task
 
@@ -20,6 +20,7 @@ Your app should render a single month view of a calendar for the current month â
 * Expand the calendar to support more than the current month.
 * There should be a Previos and Next button that would render next or previous month
 * You have to use Redux compulsory, you can also use redux-thunk/redux-saga if required.
+* You have to use Routes to render particular months, or details of a particular event. I should be able to navigate to that particular route with Month & Year, that will render the calender for that month & year, or the event details dependeing upon the route & params.
 
 
 ### Notes:
